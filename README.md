@@ -25,8 +25,9 @@ go get github.com/erstam/go-pgsanity/pgsanity
 You can control where the executable gets installed
 using the %GOBIN% env var.
 
-**Note:** Make sure you have Postgres installed and the `ecgp` tool
-can be found in %PATH%.
+**Note:** Make sure that you have PostgreSQL installed and that the
+`ecpg` tool is in %PATH%.  Check with `where ecpg` to confirm.
+You can install [PostgreSQL here](https://www.postgresql.org/download/).
 
 ## Usage
 
